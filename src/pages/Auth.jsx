@@ -60,7 +60,7 @@ function Auth() {
         });
         if (authError) throw authError;
         setSuccessMessage(
-          "Registrazione completata! Controlla la tua email per confermare l'account.",
+          "Registrazione completata!",
         );
       } else {
         // --- CASO LOGIN ---
